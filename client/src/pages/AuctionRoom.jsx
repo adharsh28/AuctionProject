@@ -48,6 +48,21 @@ function AuctionRoom() {
         setRemainingBudget(0);
       });
   };
+ const saveAuctionState = (state) => {
+  localStorage.setItem("auctionState", JSON.stringify(state));
+};
+
+  // 🔹 Load last known auction state from localStorage
+const loadAuctionState = () => {
+  const saved = localStorage.getItem("auctionState");
+  if (saved) {
+    const { player, bid, bidder, timer } = JSON.parse(saved);
+    setPlayer(player);
+    setBid(bid);
+    setBidder(bidder);
+    setTimer(timer);
+  }
+};
 
   const fetchAuctionState = () => {
     axios.get(`${API_BASE_URL}/api/room/${roomCode}`)
@@ -63,63 +78,125 @@ function AuctionRoom() {
       .catch(() => {});
   };
 
-  useEffect(() => {
-    fetchTeam();
-    fetchAuctionState();
+  const checkRoomState = async () => {
+  try {
+    const res = await axios.get(`${API_BASE_URL}/api/room/${roomCode}/state`);
 
-    const handleTeamData = (team) => {
-      setTeam(Array.isArray(team) ? team : []);
-    };
-
-    const handleNewPlayer = ({ player, bid, bidder, timer }) => {
-      setPlayer(player);
-      setBid(bid);
-      setBidder(bidder);
-      setTimer(timer);
-    };
-
-    const handleBidUpdate = ({ bid, bidder, timer }) => {
-      setBid(bid);
-      setBidder(bidder);
-      setTimer(timer);
-    };
-
-    const handlePlayerSold = ({ player, winner }) => {
-      if (winner?.toLowerCase() === playerName.toLowerCase()) {
-        setTimeout(() => {
-          fetchTeam();
-        }, 500);
-      }
-    };
-
-    const handleAuctionEnd = () => {
+    if (res.data.auctionEnded) {
       setAuctionEnded(true);
       setPlayer(null);
-      setBidder(null);
       setBid(0);
+      setBidder(null);
       setTimer(0);
+      return; // stop further actions
+    }
+
+    // Auction ongoing → safe to rejoin
+    if (playerName && roomCode) {
+      socket.emit('rejoin-room', { roomCode, playerName });
+    }
+
+    // Update current auction state
+    setPlayer(res.data.currentPlayer);
+    setBid(res.data.bid);
+    setBidder(res.data.bidder);
+    setTimer(res.data.timer);
+
+  } catch (err) {
+    console.error('Error fetching room state:', err);
+  }
+};
+
+
+  useEffect(() => {
+  loadAuctionState();
+  checkRoomState();
+    fetchTeam();
+  fetchAuctionState();
+ 
+  const handleTeamData = (team) => {
+    setTeam(Array.isArray(team) ? team : []);
+  };
+
+  const handleNewPlayer = ({ player, bid, bidder, timer }) => {
+    setPlayer(player);
+    setBid(bid);
+    setBidder(bidder);
+    setTimer(timer);
+  };
+
+  const handleBidUpdate = ({ bid, bidder, timer }) => {
+    setBid(bid);
+    setBidder(bidder);
+    setTimer(timer);
+    const saved = JSON.parse(localStorage.getItem("auctionState")) || {};
+  saveAuctionState({ ...saved, bid, bidder, timer });
+  };
+
+  const handlePlayerSold = ({ player, winner }) => {
+    if (winner?.toLowerCase() === playerName.toLowerCase()) {
+      setTimeout(() => {
+        fetchTeam();
+      }, 500);
+    }
+    localStorage.removeItem("auctionState");
+  };
+
+  const handleAuctionEnd = () => {
+    setAuctionEnded(true);
+    setPlayer(null);
+    setBidder(null);
+    setBid(0);
+    setTimer(0);
+     localStorage.removeItem("auctionState");
+  };
+  const handleAuctionState = ({ currentPlayer, bid, bidder, timer }) => {
+      console.log("🧠 Restoring auction state:", currentPlayer, bid, bidder, timer);
+      setPlayer(currentPlayer);
+      setBid(bid);
+      setBidder(bidder);
+      setTimer(timer);
+      saveAuctionState({ player: currentPlayer, bid, bidder, timer });
     };
 
-    socket.on('new-player', handleNewPlayer);
-    socket.on('bid-update', handleBidUpdate);
-    socket.on('team-data', handleTeamData);
-    socket.on('player-sold', handlePlayerSold);
-    socket.on('timer-update', setTimer);
-    socket.on('auction-ended', handleAuctionEnd);
-    socket.on('bid-rejected', ({ reason }) => {
-      alert(`Bid rejected: ${reason}`);
-    });
+  socket.on('new-player', handleNewPlayer);
+  socket.on('bid-update', handleBidUpdate);
+  socket.on('team-data', handleTeamData);
+  socket.on('auction-state', handleAuctionState);
+  socket.on('player-sold', handlePlayerSold);
+  socket.on('timer-update', setTimer);
+  socket.on('auction-incomplete', ({ message }) => {
+    console.warn('⚠️ Auction incomplete:', message);
+    alert(message); // or show a modal/toast
+  });
+  socket.on('auction-ended', handleAuctionEnd);
+  socket.on('bid-rejected', ({ reason }) => {
+    alert(`Bid rejected: ${reason}`);
+  });
+  
+  // 🔹 Wait for socket reconnect before rejoining
+// socket.once("connect", () => {
+//   console.log("🔁 Socket connected, rejoining room...");
+//   if (roomCode && playerName) {
+//     socket.emit("rejoin-room", { roomCode, playerName });
+//   }
+// });
 
-    return () => {
-      socket.off('new-player', handleNewPlayer);
-      socket.off('bid-update', handleBidUpdate);
-      socket.off('team-data', handleTeamData);
-      socket.off('player-sold', handlePlayerSold);
-      socket.off('timer-update');
-      socket.off('auction-ended', handleAuctionEnd);
-      socket.off('bid-rejected');
-    };
-  }, [roomCode, playerName]);
+ 
+
+  return () => {
+    socket.off('new-player', handleNewPlayer);
+    socket.off('bid-update', handleBidUpdate);
+    socket.off('team-data', handleTeamData);
+    socket.off('auction-state', handleAuctionState);
+    socket.off('player-sold', handlePlayerSold);
+    socket.off('timer-update');
+    socket.off('auction-incomplete');
+    socket.off('auction-ended', handleAuctionEnd);
+    socket.off('bid-rejected');
+
+  };
+}, [roomCode, playerName]);
 
   useEffect(() => {
     fetchTeam();
@@ -247,46 +324,69 @@ const bidDisabled =
       )}
 
       {player?.name ? (
-        <div className="player-card">
-          <h2>{player.name}</h2>
-          <p><strong>Team:</strong> {player.team}</p>
-          <p><strong>Role:</strong> {player.role}</p>
-          <p><strong>Nation:</strong> {player.nation}</p>
-          <p><strong>Highest Bidder:</strong> {bidder || 'None'}</p>
-          <p><strong>Current Bid:</strong> ₹{bid.toFixed(2)} Cr</p>
-          <p><strong>Timer:</strong> {timer}</p>
-          <button
-  onClick={handleBid}
-  disabled={bidDisabled}
-  style={{
-    padding: '8px 16px',
-    backgroundColor: bidDisabled ? '#ccc' : '#007bff',
-    color: '#fff',
-    border: 'none',
-    borderRadius: '5px',
-    cursor: bidDisabled ? 'not-allowed' : 'pointer',
-    marginRight: '10px'
-  }}
->
-  Bid
-</button>
-          <button
-            onClick={handlePass}
-            style={{
-              padding: '8px 16px',
-              backgroundColor: '#dc3545',
-              color: '#fff',
-              border: 'none',
-              borderRadius: '5px',
-              cursor: 'pointer'
-            }}
-          >
-            Pass
-          </button>
-        </div>
-      ) : (
-        <p>Waiting for next player...</p>
-      )}
+  <div className="player-card">
+    <h2>{player.name}</h2>
+    <p><strong>Team:</strong> {player.team}</p>
+    <p><strong>Role:</strong> {player.role}</p>
+    <p><strong>Nation:</strong> {player.nation}</p>
+    <p><strong>Highest Bidder:</strong> {bidder || 'None'}</p>
+    <p><strong>Current Bid:</strong> ₹{bid.toFixed(2)} Cr</p>
+  
+    {/* ✅ Batting Stats */}
+    {player.stats?.Batting && (
+      <div style={{ marginTop: '10px' }}>
+        <h4>Batting Stats</h4>
+        <p>Matches: {player.stats.Batting.M}</p>
+        <p>Runs: {player.stats.Batting.R}</p>
+        <p>Avg: {player.stats.Batting.Avg}</p>
+        <p>SR: {player.stats.Batting.SR}</p>
+      </div>
+    )}
+
+    {/* ✅ Bowling Stats */}
+    {player.stats?.Bowling && (
+      <div style={{ marginTop: '10px' }}>
+        <h4>Bowling Stats</h4>
+        <p>Wickets: {player.stats.Bowling.W}</p>
+        <p>Avg: {player.stats.Bowling.Avg}</p>
+        <p>Econ: {player.stats.Bowling.Econ}</p>
+      </div>
+    )}
+    <p><strong>Timer:</strong> {timer}</p>
+
+    {/* ✅ Bid and Pass Buttons */}
+    <button
+      onClick={handleBid}
+      disabled={bidDisabled}
+      style={{
+        padding: '8px 16px',
+        backgroundColor: bidDisabled ? '#ccc' : '#007bff',
+        color: '#fff',
+        border: 'none',
+        borderRadius: '5px',
+        cursor: bidDisabled ? 'not-allowed' : 'pointer',
+        marginRight: '10px'
+      }}
+    >
+      Bid
+    </button>
+    <button
+      onClick={handlePass}
+      style={{
+        padding: '8px 16px',
+        backgroundColor: '#dc3545',
+        color: '#fff',
+        border: 'none',
+        borderRadius: '5px',
+        cursor: 'pointer'
+      }}
+    >
+      Pass
+    </button>
+  </div>
+) : (
+  <p>Waiting for next player...</p>
+)}
     </div>
   );
 }
