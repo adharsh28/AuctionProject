@@ -80,6 +80,20 @@ app.get('/api/room/:roomCode', async (req, res) => {
   }
 });
 
+app.get('/api/room/:roomCode/state', async (req, res) => {
+  const room = await Room.findOne({ roomCode: req.params.roomCode });
+  if (!room) return res.status(404).json({ message: 'Room not found' });
+
+  res.json({
+    auctionEnded: room.auctionEnded || false,
+    currentPlayer: room.currentPlayer || null,
+    bid: room.bid || 0,
+    bidder: room.bidder || null,
+    timer: room.timer || 0
+  });
+});
+
+
 // ✅ Route: Join Room
 app.post('/api/join-room', async (req, res) => {
   const { roomCode, name } = req.body;
