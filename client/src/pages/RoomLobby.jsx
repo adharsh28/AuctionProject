@@ -11,6 +11,11 @@ function RoomLobby() {
   const playerName = localStorage.getItem('name');
 
   useEffect(() => {
+     // ✅ Rejoin the room on refresh
+  if (playerName && roomCode) {
+    socket.emit('rejoin-room', { roomCode, playerName });
+  }
+
     socket.emit('get-room-info', { roomCode });
 
     socket.on('room-info', ({ creator, maxPlayers }) => {
@@ -32,7 +37,7 @@ function RoomLobby() {
       socket.off('player-list');
       socket.off('game-started');
     };
-  }, [roomCode,navigate]);
+  }, [roomCode,navigate,playerName]);
 
   const handleStart = () => {
     socket.emit('start-game', { roomCode }
