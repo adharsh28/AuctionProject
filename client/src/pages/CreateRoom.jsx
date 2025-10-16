@@ -108,9 +108,14 @@ function CreateRoom() {
 />
 <br />
 
-      <select value={dataset} onChange={(e) => setDataset(e.target.value)}>
+      {/* <select value={dataset} onChange={(e) => setDataset(e.target.value)}>
   <option value="hundred">The Hundred</option>
   <option value="ipl">IPL</option>
+</select> */}
+<select value={dataset} onChange={(e) => setDataset(e.target.value)}>
+  <option value="ipl">IPL</option>
+  <option value="hundred">Hundred</option>
+  <option value="test">Test (5 Players)</option> {/* ✅ Add this */}
 </select>
     
       <button onClick={handleCreate}>Create</button>
