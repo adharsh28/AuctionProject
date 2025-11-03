@@ -1,9 +1,10 @@
-module.exports=[
+export default[
     {
         "NAME": "DEWALD BREVIS",
         "ROLE": "BATTER",
         "TEAM": "CSK",
         "NATION": "SOUTH AFRICA",
+        "Base_Price": 1.5,
         "STATS": {
             "Batting": {
                 "M": 14,
@@ -19,6 +20,7 @@ module.exports=[
         "ROLE": "BATTER",
         "TEAM": "CSK",
         "NATION": "NEW ZEALAND",
+        "Base_Price": 2.5,
         "STATS": {
             "Batting": {
                 "M": 16,
@@ -34,6 +36,7 @@ module.exports=[
         "ROLE": "BATTER",
         "TEAM": "CSK",
         "NATION": "INDIA",
+        "Base_Price": 2.0,
         "STATS": {
             "Batting": {
                 "M": 15,
@@ -49,6 +52,7 @@ module.exports=[
         "ROLE": "BATTER",
         "TEAM": "CSK",
         "NATION": "INDIA",
+        "Base_Price": 1.0,
         "STATS": {
             "Batting": {
                 "M": 8,
@@ -64,6 +68,7 @@ module.exports=[
         "ROLE": "WK-BATTER",
         "TEAM": "CSK",
         "NATION": "INDIA",
+        "Base_Price": 1.0,
         "STATS": {
             "Batting": {
                 "M": 5,
@@ -79,6 +84,7 @@ module.exports=[
         "ROLE": "BATTER",
         "TEAM": "CSK",
         "NATION": "INDIA",
+        "Base_Price": 1.0,
         "STATS": {
             "Batting": {
                 "M": 3,
@@ -94,6 +100,7 @@ module.exports=[
         "ROLE": "BATTER",
         "TEAM": "CSK",
         "NATION": "INDIA",
+        "Base_Price": 1.0,
         "STATS": {
             "Batting": {
                 "M": 2,
@@ -109,6 +116,7 @@ module.exports=[
         "ROLE": "WK-BATTER",
         "TEAM": "CSK",
         "NATION": "INDIA",
+        "Base_Price": 1.0,
         "STATS": {
             "Batting": {
                 "M": 6,
@@ -124,6 +132,7 @@ module.exports=[
         "ROLE": "ALL-ROUNDER",
         "TEAM": "CSK",
         "NATION": "NEW ZEALAND",
+        "Base_Price": 2.0,
         "STATS": {
             "Batting": {
                 "M": 14,
@@ -145,6 +154,7 @@ module.exports=[
         "ROLE": "ALL-ROUNDER",
         "TEAM": "CSK",
         "NATION": "INDIA",
+        "Base_Price": 2.5,
         "STATS": {
             "Batting": {
                 "M": 16,
@@ -166,6 +176,7 @@ module.exports=[
         "ROLE": "ALL-ROUNDER",
         "TEAM": "CSK",
         "NATION": "INDIA",
+        "Base_Price": 1.5,
         "STATS": {
             "Batting": {
                 "M": 12,
@@ -187,6 +198,7 @@ module.exports=[
         "ROLE": "ALL-ROUNDER",
         "TEAM": "CSK",
         "NATION": "ENGLAND",
+        "Base_Price": 2.5,
         "STATS": {
             "Batting": {
                 "M": 16,
@@ -208,6 +220,7 @@ module.exports=[
         "ROLE": "ALL-ROUNDER",
         "TEAM": "CSK",
         "NATION": "INDIA",
+        "Base_Price": 1.0,
         "STATS": {
             "Batting": {
                 "M": 4,
@@ -229,6 +242,7 @@ module.exports=[
         "ROLE": "ALL-ROUNDER",
         "TEAM": "CSK",
         "NATION": "INDIA",
+        "Base_Price": 1.5,
         "STATS": {
             "Batting": {
                 "M": 13,
@@ -250,6 +264,7 @@ module.exports=[
         "ROLE": "ALL-ROUNDER",
         "TEAM": "CSK",
         "NATION": "ENGLAND",
+        "Base_Price": 1.5,
         "STATS": {
             "Batting": {
                 "M": 8,
@@ -271,6 +286,7 @@ module.exports=[
         "ROLE": "ALL-ROUNDER",
         "TEAM": "CSK",
         "NATION": "INDIA",
+        "Base_Price": 1.0,
         "STATS": {
             "Batting": {
                 "M": 5,
@@ -292,6 +308,7 @@ module.exports=[
         "ROLE": "ALL-ROUNDER",
         "TEAM": "CSK",
         "NATION": "INDIA",
+        "Base_Price": 1.0,
         "STATS": {
             "Batting": {
                 "M": 3,
@@ -313,6 +330,7 @@ module.exports=[
         "ROLE": "ALL-ROUNDER",
         "TEAM": "CSK",
         "NATION": "INDIA",
+        "Base_Price": 3.0,
         "STATS": {
             "Batting": {
                 "M": 16,
@@ -334,6 +352,7 @@ module.exports=[
         "ROLE": "ALL-ROUNDER",
         "TEAM": "CSK",
         "NATION": "INDIA",
+        "Base_Price": 2.0,
         "STATS": {
             "Batting": {
                 "M": 15,
@@ -355,6 +374,7 @@ module.exports=[
         "ROLE": "BOWLER",
         "TEAM": "CSK",
         "NATION": "INDIA",
+        "Base_Price": 1.5,
         "STATS": {
             "Bowling": {
                 "M": 14,
@@ -370,6 +390,7 @@ module.exports=[
         "ROLE": "BOWLER",
         "TEAM": "CSK",
         "NATION": "AFGHANISTAN",
+        "Base_Price": 1.5,
         "STATS": {
             "Bowling": {
                 "M": 12,
@@ -385,6 +406,7 @@ module.exports=[
         "ROLE": "BOWLER",
         "TEAM": "CSK",
         "NATION": "INDIA",
+        "Base_Price": 1.0,
         "STATS": {
             "Bowling": {
                 "M": 9,
@@ -400,6 +422,7 @@ module.exports=[
         "ROLE": "BOWLER",
         "TEAM": "CSK",
         "NATION": "AUSTRALIA",
+        "Base_Price": 1.5,
         "STATS": {
             "Bowling": {
                 "M": 11,
@@ -415,6 +438,7 @@ module.exports=[
         "ROLE": "BOWLER",
         "TEAM": "CSK",
         "NATION": "INDIA",
+        "Base_Price": 1.0,
         "STATS": {
             "Bowling": {
                 "M": 6,
@@ -430,6 +454,7 @@ module.exports=[
         "ROLE": "BOWLER",
         "TEAM": "CSK",
         "NATION": "SRI LANKA",
+        "Base_Price": 2.0,
         "STATS": {
             "Bowling": {
                 "M": 13,
@@ -445,6 +470,7 @@ module.exports=[
         "ROLE": "WK-BATTER",
         "TEAM": "CSK",
         "NATION": "INDIA",
+        "Base_Price": 2.0,
         "STATS": {
             "Batting": {
                 "M": 14,
@@ -454,13 +480,13 @@ module.exports=[
                 "SR": 142.10
             }
         }
-    }
-,
+    },
     {
         "NAME": "KL RAHUL",
         "ROLE": "WK-BATTER",
         "TEAM": "DC",
         "NATION": "INDIA",
+        "Base_Price": 3.0,
         "STATS": {
             "Batting": {
                 "M": 15,
@@ -476,6 +502,7 @@ module.exports=[
         "ROLE": "BATTER",
         "TEAM": "DC",
         "NATION": "INDIA",
+        "Base_Price": 1.5,
         "STATS": {
             "Batting": {
                 "M": 8,
@@ -491,6 +518,7 @@ module.exports=[
         "ROLE": "BATTER",
         "TEAM": "DC",
         "NATION": "SOUTH AFRICA",
+        "Base_Price": 2.5,
         "STATS": {
             "Batting": {
                 "M": 16,
@@ -506,6 +534,7 @@ module.exports=[
         "ROLE": "WK-BATTER",
         "TEAM": "DC",
         "NATION": "SOUTH AFRICA",
+        "Base_Price": 1.0,
         "STATS": {
             "Batting": {
                 "M": 7,
@@ -521,6 +550,7 @@ module.exports=[
         "ROLE": "WK-BATTER",
         "TEAM": "DC",
         "NATION": "INDIA",
+        "Base_Price": 1.0,
         "STATS": {
             "Batting": {
                 "M": 4,
@@ -536,6 +566,7 @@ module.exports=[
         "ROLE": "WK-BATTER",
         "TEAM": "DC",
         "NATION": "SOUTH AFRICA",
+        "Base_Price": 1.5,
         "STATS": {
             "Batting": {
                 "M": 12,
@@ -551,6 +582,7 @@ module.exports=[
         "ROLE": "ALL-ROUNDER",
         "TEAM": "DC",
         "NATION": "INDIA",
+        "Base_Price": 2.0,
         "STATS": {
             "Batting": {
                 "M": 16,
@@ -572,6 +604,7 @@ module.exports=[
         "ROLE": "ALL-ROUNDER",
         "TEAM": "DC",
         "NATION": "INDIA",
+        "Base_Price": 1.0,
         "STATS": {
             "Batting": {
                 "M": 6,
@@ -593,6 +626,7 @@ module.exports=[
         "ROLE": "ALL-ROUNDER",
         "TEAM": "DC",
         "NATION": "INDIA",
+        "Base_Price": 1.0,
         "STATS": {
             "Batting": {
                 "M": 5,
@@ -614,6 +648,7 @@ module.exports=[
         "ROLE": "ALL-ROUNDER",
         "TEAM": "DC",
         "NATION": "INDIA",
+        "Base_Price": 1.0,
         "STATS": {
             "Batting": {
                 "M": 4,
@@ -635,6 +670,7 @@ module.exports=[
         "ROLE": "ALL-ROUNDER",
         "TEAM": "DC",
         "NATION": "INDIA",
+        "Base_Price": 1.0,
         "STATS": {
             "Batting": {
                 "M": 2,
@@ -656,6 +692,7 @@ module.exports=[
         "ROLE": "ALL-ROUNDER",
         "TEAM": "DC",
         "NATION": "INDIA",
+        "Base_Price": 1.0,
         "STATS": {
             "Batting": {
                 "M": 3,
@@ -677,6 +714,7 @@ module.exports=[
         "ROLE": "ALL-ROUNDER",
         "TEAM": "DC",
         "NATION": "INDIA",
+        "Base_Price": 1.0,
         "STATS": {
             "Batting": {
                 "M": 2,
@@ -698,6 +736,7 @@ module.exports=[
         "ROLE": "ALL-ROUNDER",
         "TEAM": "DC",
         "NATION": "INDIA",
+        "Base_Price": 1.0,
         "STATS": {
             "Batting": {
                 "M": 1,
@@ -719,6 +758,7 @@ module.exports=[
         "ROLE": "ALL-ROUNDER",
         "TEAM": "DC",
         "NATION": "INDIA",
+        "Base_Price": 1.0,
         "STATS": {
             "Batting": {
                 "M": 1,
@@ -740,6 +780,7 @@ module.exports=[
         "ROLE": "BOWLER",
         "TEAM": "DC",
         "NATION": "AUSTRALIA",
+        "Base_Price": 3.0,
         "STATS": {
             "Bowling": {
                 "M": 14,
@@ -755,6 +796,7 @@ module.exports=[
         "ROLE": "BOWLER",
         "TEAM": "DC",
         "NATION": "INDIA",
+        "Base_Price": 1.5,
         "STATS": {
             "Bowling": {
                 "M": 12,
@@ -770,6 +812,7 @@ module.exports=[
         "ROLE": "BOWLER",
         "TEAM": "DC",
         "NATION": "INDIA",
+        "Base_Price": 1.5,
         "STATS": {
             "Bowling": {
                 "M": 13,
@@ -785,6 +828,7 @@ module.exports=[
         "ROLE": "BOWLER",
         "TEAM": "DC",
         "NATION": "INDIA",
+        "Base_Price": 1.0,
         "STATS": {
             "Bowling": {
                 "M": 11,
@@ -800,6 +844,7 @@ module.exports=[
         "ROLE": "BOWLER",
         "TEAM": "DC",
         "NATION": "SRI LANKA",
+        "Base_Price": 1.5,
         "STATS": {
             "Bowling": {
                 "M": 8,
@@ -815,6 +860,7 @@ module.exports=[
         "ROLE": "BOWLER",
         "TEAM": "DC",
         "NATION": "INDIA",
+        "Base_Price": 2.0,
         "STATS": {
             "Bowling": {
                 "M": 15,
@@ -830,6 +876,7 @@ module.exports=[
         "ROLE": "BOWLER",
         "TEAM": "DC",
         "NATION": "BANGLADESH",
+        "Base_Price": 1.5,
         "STATS": {
             "Bowling": {
                 "M": 10,
@@ -845,6 +892,7 @@ module.exports=[
         "ROLE": "WK-BATTER",
         "TEAM": "GT",
         "NATION": "INDIA",
+        "Base_Price": 1.0,
         "STATS": {
             "Batting": {
                 "M": 9,
@@ -860,6 +908,7 @@ module.exports=[
         "ROLE": "BATTER",
         "TEAM": "GT",
         "NATION": "WEST INDIES",
+        "Base_Price": 1.5,
         "STATS": {
             "Batting": {
                 "M": 11,
@@ -875,6 +924,7 @@ module.exports=[
         "ROLE": "BATTER",
         "TEAM": "GT",
         "NATION": "SRI LANKA",
+        "Base_Price": 1.5,
         "STATS": {
             "Batting": {
                 "M": 8,
@@ -890,6 +940,7 @@ module.exports=[
         "ROLE": "ALL-ROUNDER",
         "TEAM": "GT",
         "NATION": "INDIA",
+        "Base_Price": 1.0,
         "STATS": {
             "Batting": {
                 "M": 5,
@@ -911,6 +962,7 @@ module.exports=[
         "ROLE": "ALL-ROUNDER",
         "TEAM": "GT",
         "NATION": "INDIA",
+        "Base_Price": 1.0,
         "STATS": {
             "Batting": {
                 "M": 7,
@@ -932,6 +984,7 @@ module.exports=[
         "ROLE": "ALL-ROUNDER",
         "TEAM": "GT",
         "NATION": "INDIA",
+        "Base_Price": 1.5,
         "STATS": {
             "Batting": {
                 "M": 12,
@@ -953,6 +1006,7 @@ module.exports=[
         "ROLE": "ALL-ROUNDER",
         "TEAM": "GT",
         "NATION": "INDIA",
+        "Base_Price": 1.0,
         "STATS": {
             "Batting": {
                 "M": 6,
@@ -974,6 +1028,7 @@ module.exports=[
         "ROLE": "ALL-ROUNDER",
         "TEAM": "GT",
         "NATION": "INDIA",
+        "Base_Price": 1.0,
         "STATS": {
             "Batting": {
                 "M": 8,
@@ -995,6 +1050,7 @@ module.exports=[
         "ROLE": "ALL-ROUNDER",
         "TEAM": "GT",
         "NATION": "INDIA",
+        "Base_Price": 1.0,
         "STATS": {
             "Batting": {
                 "M": 5,
@@ -1016,6 +1072,7 @@ module.exports=[
         "ROLE": "ALL-ROUNDER",
         "TEAM": "GT",
         "NATION": "AFGHANISTAN",
+        "Base_Price": 1.0,
         "STATS": {
             "Batting": {
                 "M": 6,
@@ -1037,6 +1094,7 @@ module.exports=[
         "ROLE": "ALL-ROUNDER",
         "TEAM": "GT",
         "NATION": "INDIA",
+        "Base_Price": 2.0,
         "STATS": {
             "Batting": {
                 "M": 14,
@@ -1058,6 +1116,7 @@ module.exports=[
         "ROLE": "ALL-ROUNDER",
         "TEAM": "GT",
         "NATION": "SRI LANKA",
+        "Base_Price": 1.5,
         "STATS": {
             "Batting": {
                 "M": 8,
@@ -1079,6 +1138,7 @@ module.exports=[
         "ROLE": "ALL-ROUNDER",
         "TEAM": "GT",
         "NATION": "INDIA",
+        "Base_Price": 1.0,
         "STATS": {
             "Batting": {
                 "M": 10,
@@ -1100,6 +1160,7 @@ module.exports=[
         "ROLE": "BOWLER",
         "TEAM": "GT",
         "NATION": "SOUTH AFRICA",
+        "Base_Price": 3.0,
         "STATS": {
             "Bowling": {
                 "M": 15,
@@ -1115,6 +1176,7 @@ module.exports=[
         "ROLE": "BOWLER",
         "TEAM": "GT",
         "NATION": "INDIA",
+        "Base_Price": 2.0,
         "STATS": {
             "Bowling": {
                 "M": 16,
@@ -1130,6 +1192,7 @@ module.exports=[
         "ROLE": "BOWLER",
         "TEAM": "GT",
         "NATION": "INDIA",
+        "Base_Price": 1.2,
         "STATS": {
             "Bowling": {
                 "M": 12,
@@ -1145,6 +1208,7 @@ module.exports=[
         "ROLE": "BOWLER",
         "TEAM": "GT",
         "NATION": "INDIA",
+        "Base_Price": 1.0,
         "STATS": {
             "Bowling": {
                 "M": 4,
@@ -1160,6 +1224,7 @@ module.exports=[
         "ROLE": "BOWLER",
         "TEAM": "GT",
         "NATION": "SOUTH AFRICA",
+        "Base_Price": 2.0,
         "STATS": {
             "Bowling": {
                 "M": 10,
@@ -1175,6 +1240,7 @@ module.exports=[
         "ROLE": "BOWLER",
         "TEAM": "GT",
         "NATION": "INDIA",
+        "Base_Price": 0.8,
         "STATS": {
             "Bowling": {
                 "M": 3,
@@ -1190,6 +1256,7 @@ module.exports=[
         "ROLE": "BOWLER",
         "TEAM": "GT",
         "NATION": "INDIA",
+        "Base_Price": 2.5,
         "STATS": {
             "Bowling": {
                 "M": 7,
@@ -1205,6 +1272,7 @@ module.exports=[
         "ROLE": "BOWLER",
         "TEAM": "GT",
         "NATION": "INDIA",
+        "Base_Price": 1.0,
         "STATS": {
             "Bowling": {
                 "M": 5,
@@ -1220,6 +1288,7 @@ module.exports=[
         "ROLE": "BOWLER",
         "TEAM": "GT",
         "NATION": "INDIA",
+        "Base_Price": 1.2,
         "STATS": {
             "Bowling": {
                 "M": 9,
@@ -1235,6 +1304,7 @@ module.exports=[
         "ROLE": "BOWLER",
         "TEAM": "GT",
         "NATION": "AFGHANISTAN",
+        "Base_Price": 2.5,
         "STATS": {
             "Bowling": {
                 "M": 16,
@@ -1246,7 +1316,7 @@ module.exports=[
         }
     }
 ,
-    {
+   {
         "NAME": "AJINKYA RAHANE",
         "ROLE": "BATTER",
         "TEAM": "KKR",
@@ -1259,7 +1329,8 @@ module.exports=[
                 "Avg": 33.16,
                 "SR": 142.85
             }
-        }
+        },
+        "Base_Price": 1.5
     },
     {
         "NAME": "RINKU SINGH",
@@ -1274,7 +1345,8 @@ module.exports=[
                 "Avg": 46.70,
                 "SR": 152.28
             }
-        }
+        },
+        "Base_Price": 2.5
     },
     {
         "NAME": "QUINTON DE KOCK",
@@ -1289,7 +1361,8 @@ module.exports=[
                 "Avg": 36.57,
                 "SR": 138.37
             }
-        }
+        },
+        "Base_Price": 2.0
     },
     {
         "NAME": "RAHMANULLAH GURBAZ",
@@ -1304,7 +1377,8 @@ module.exports=[
                 "Avg": 26.71,
                 "SR": 145.31
             }
-        }
+        },
+        "Base_Price": 1.0
     },
     {
         "NAME": "ANGKRISH RAGHUVANSHI",
@@ -1319,7 +1393,8 @@ module.exports=[
                 "Avg": 26.80,
                 "SR": 142.55
             }
-        }
+        },
+        "Base_Price": 0.5
     },
     {
         "NAME": "MANISH PANDEY",
@@ -1334,7 +1409,8 @@ module.exports=[
                 "Avg": 24.16,
                 "SR": 128.31
             }
-        }
+        },
+        "Base_Price": 1.0
     },
     {
         "NAME": "LUVNITH SISODIA",
@@ -1349,7 +1425,8 @@ module.exports=[
                 "Avg": 14.00,
                 "SR": 116.66
             }
-        }
+        },
+        "Base_Price": 0.5
     },
     {
         "NAME": "VENKATESH IYER",
@@ -1370,7 +1447,8 @@ module.exports=[
                 "Avg": 46.25,
                 "Econ": 9.25
             }
-        }
+        },
+        "Base_Price": 1.5
     },
     {
         "NAME": "ANUKUL ROY",
@@ -1391,7 +1469,8 @@ module.exports=[
                 "Avg": 41.33,
                 "Econ": 8.26
             }
-        }
+        },
+        "Base_Price": 0.5
     },
     {
         "NAME": "MOEEN ALI",
@@ -1412,7 +1491,8 @@ module.exports=[
                 "Avg": 32.44,
                 "Econ": 8.11
             }
-        }
+        },
+        "Base_Price": 1.5
     },
     {
         "NAME": "RAMANDEEP SINGH",
@@ -1433,7 +1513,8 @@ module.exports=[
                 "Avg": 44.50,
                 "Econ": 8.90
             }
-        }
+        },
+        "Base_Price": 0.5
     },
     {
         "NAME": "ANDRE RUSSEL",
@@ -1454,7 +1535,8 @@ module.exports=[
                 "Avg": 26.18,
                 "Econ": 9.35
             }
-        }
+        },
+        "Base_Price": 3.0
     },
     {
         "NAME": "ANRICH NORTJE",
@@ -1469,7 +1551,8 @@ module.exports=[
                 "Avg": 27.13,
                 "Econ": 8.85
             }
-        }
+        },
+        "Base_Price": 2.0
     },
     {
         "NAME": "VAIBHAV ARORA",
@@ -1484,7 +1567,8 @@ module.exports=[
                 "Avg": 29.41,
                 "Econ": 8.82
             }
-        }
+        },
+        "Base_Price": 1.0
     },
     {
         "NAME": "MAYANK MARKANDE",
@@ -1499,7 +1583,8 @@ module.exports=[
                 "Avg": 31.80,
                 "Econ": 8.44
             }
-        }
+        },
+        "Base_Price": 1.0
     },
     {
         "NAME": "SPENCER JOHNSON",
@@ -1514,7 +1599,8 @@ module.exports=[
                 "Avg": 33.22,
                 "Econ": 9.15
             }
-        }
+        },
+        "Base_Price": 1.5
     },
     {
         "NAME": "HARSHIT RANA",
@@ -1529,7 +1615,8 @@ module.exports=[
                 "Avg": 28.69,
                 "Econ": 9.10
             }
-        }
+        },
+        "Base_Price": 1.0
     },
     {
         "NAME": "SUNIL NARINE",
@@ -1544,7 +1631,8 @@ module.exports=[
                 "Avg": 24.72,
                 "Econ": 7.85
             }
-        }
+        },
+        "Base_Price": 2.5
     },
     {
         "NAME": "VARUN CHAKARAVARTHY",
@@ -1559,7 +1647,8 @@ module.exports=[
                 "Avg": 26.47,
                 "Econ": 8.25
             }
-        }
+        },
+        "Base_Price": 1.5
     },
     {
         "NAME": "CHETAN SAKARIYA",
@@ -1574,7 +1663,8 @@ module.exports=[
                 "Avg": 38.33,
                 "Econ": 9.58
             }
-        }
+        },
+        "Base_Price": 0.5
     },
     {
         "NAME": "RISHABH PANT",
@@ -1589,7 +1679,8 @@ module.exports=[
                 "Avg": 40.23,
                 "SR": 146.50
             }
-        }
+        },
+        "Base_Price": 3.0
     },
     {
         "NAME": "DAVID MILLER",
@@ -1604,7 +1695,8 @@ module.exports=[
                 "Avg": 35.18,
                 "SR": 142.85
             }
-        }
+        },
+        "Base_Price": 2.0
     },
     {
         "NAME": "AIDEN MARKRAM",
@@ -1619,7 +1711,8 @@ module.exports=[
                 "Avg": 31.36,
                 "SR": 135.29
             }
-        }
+        },
+        "Base_Price": 1.5
     },
     {
         "NAME": "ARYAN JUYAL",
@@ -1634,7 +1727,8 @@ module.exports=[
                 "Avg": 16.00,
                 "SR": 114.28
             }
-        }
+        },
+        "Base_Price": 0.5
     },
     {
         "NAME": "HIMMAT SINGH",
@@ -1649,7 +1743,8 @@ module.exports=[
                 "Avg": 16.75,
                 "SR": 121.81
             }
-        }
+        },
+        "Base_Price": 0.5
     },
     {
         "NAME": "MATTHEW BREETZKE",
@@ -1664,7 +1759,8 @@ module.exports=[
                 "Avg": 16.00,
                 "SR": 118.51
             }
-        }
+        },
+        "Base_Price": 0.5
     },
     {
         "NAME": "NICHOLAS POORAN",
@@ -1679,7 +1775,8 @@ module.exports=[
                 "Avg": 34.33,
                 "SR": 158.46
             }
-        }
+        },
+        "Base_Price": 2.5
     },
     {
         "NAME": "MITCHELL MARSH",
@@ -1700,7 +1797,8 @@ module.exports=[
                 "Avg": 28.44,
                 "Econ": 8.85
             }
-        }
+        },
+        "Base_Price": 2.0
     },
     {
         "NAME": "ABDUL SAMAD",
@@ -1721,7 +1819,8 @@ module.exports=[
                 "Avg": 46.50,
                 "Econ": 9.30
             }
-        }
+        },
+        "Base_Price": 0.5
     },
     {
         "NAME": "SHAHBAZ AHAMAD",
@@ -1742,7 +1841,8 @@ module.exports=[
                 "Avg": 38.75,
                 "Econ": 8.61
             }
-        }
+        },
+        "Base_Price": 0.5
     },
     {
         "NAME": "YUVARAJ CHAUDHARY",
@@ -1763,7 +1863,8 @@ module.exports=[
                 "Avg": 54.00,
                 "Econ": 9.00
             }
-        }
+        },
+        "Base_Price": 0.5
     },
     {
         "NAME": "RAJVARDHAN HANGARGEKAR",
@@ -1784,7 +1885,8 @@ module.exports=[
                 "Avg": 44.33,
                 "Econ": 9.85
             }
-        }
+        },
+        "Base_Price": 0.5
     },
     {
         "NAME": "ARSHIN KULKARNI",
@@ -1805,7 +1907,8 @@ module.exports=[
                 "Avg": 52.00,
                 "Econ": 8.66
             }
-        }
+        },
+        "Base_Price": 0.5
     },
     {
         "NAME": "AYUSH BADONI",
@@ -1826,7 +1929,8 @@ module.exports=[
                 "Avg": 56.00,
                 "Econ": 9.33
             }
-        }
+        },
+        "Base_Price": 0.5
     },
     {
         "NAME": "SHARDUL THAKUR",
@@ -1847,7 +1951,8 @@ module.exports=[
                 "Avg": 32.08,
                 "Econ": 9.15
             }
-        }
+        },
+        "Base_Price": 1.5
     },
     {
         "NAME": "AVESH KHAN",
@@ -1862,7 +1967,8 @@ module.exports=[
                 "Avg": 28.13,
                 "Econ": 8.65
             }
-        }
+        },
+        "Base_Price": 1.0
     },
     {
         "NAME": "AKASH DEEP",
@@ -1877,7 +1983,8 @@ module.exports=[
                 "Avg": 31.80,
                 "Econ": 9.10
             }
-        }
+        },
+        "Base_Price": 1.0
     },
     {
         "NAME": "M. SIDDHARTH",
@@ -1892,7 +1999,8 @@ module.exports=[
                 "Avg": 42.60,
                 "Econ": 8.52
             }
-        }
+        },
+        "Base_Price": 0.5
     },
     {
         "NAME": "DIGVESH SINGH",
@@ -1907,7 +2015,8 @@ module.exports=[
                 "Avg": 48.50,
                 "Econ": 9.70
             }
-        }
+        },
+        "Base_Price": 0.5
     },
     {
         "NAME": "AKASH SINGH",
@@ -1922,7 +2031,8 @@ module.exports=[
                 "Avg": 44.33,
                 "Econ": 8.86
             }
-        }
+        },
+        "Base_Price": 0.5
     },
     {
         "NAME": "SHAMAR JOSEPH",
@@ -1937,7 +2047,8 @@ module.exports=[
                 "Avg": 32.12,
                 "Econ": 8.90
             }
-        }
+        },
+        "Base_Price": 1.0
     },
     {
         "NAME": "PRINCE YADAV",
@@ -1952,7 +2063,8 @@ module.exports=[
                 "Avg": 58.00,
                 "Econ": 9.66
             }
-        }
+        },
+        "Base_Price": 0.5
     },
     {
         "NAME": "WILLIAM O'ROURKE",
@@ -1967,7 +2079,8 @@ module.exports=[
                 "Avg": 41.25,
                 "Econ": 9.16
             }
-        }
+        },
+        "Base_Price": 0.5
     },
     {
         "NAME": "RAVI BISHNOI",
@@ -1982,10 +2095,11 @@ module.exports=[
                 "Avg": 27.81,
                 "Econ": 8.25
             }
-        }
+        },
+        "Base_Price": 2.0
     }
 ,
-    {
+      {
         "NAME": "ROBIN MINZ",
         "ROLE": "WK-BATTER",
         "TEAM": "MI",
@@ -1998,7 +2112,8 @@ module.exports=[
                 "Avg": 19.60,
                 "SR": 132.43
             }
-        }
+        },
+        "Base_Price": 0.5
     },
     {
         "NAME": "SHRIJITH KRISHNAN",
@@ -2013,7 +2128,8 @@ module.exports=[
                 "Avg": 16.00,
                 "SR": 118.51
             }
-        }
+        },
+        "Base_Price": 0.5
     },
     {
         "NAME": "BEVON JACOBS",
@@ -2028,7 +2144,8 @@ module.exports=[
                 "Avg": 24.16,
                 "SR": 128.31
             }
-        }
+        },
+        "Base_Price": 0.5
     },
     {
         "NAME": "JONNY BAIRSTOW",
@@ -2043,7 +2160,8 @@ module.exports=[
                 "Avg": 34.33,
                 "SR": 142.70
             }
-        }
+        },
+        "Base_Price": 2.0
     },
     {
         "NAME": "N. TILAK VARMA",
@@ -2058,7 +2176,8 @@ module.exports=[
                 "Avg": 38.91,
                 "SR": 145.48
             }
-        }
+        },
+        "Base_Price": 2.0
     },
     {
         "NAME": "HARDIK PANDYA",
@@ -2079,7 +2198,8 @@ module.exports=[
                 "Avg": 28.73,
                 "Econ": 8.65
             }
-        }
+        },
+        "Base_Price": 3.0
     },
     {
         "NAME": "NAMAN DHIR",
@@ -2100,7 +2220,8 @@ module.exports=[
                 "Avg": 46.50,
                 "Econ": 9.30
             }
-        }
+        },
+        "Base_Price": 0.5
     },
     {
         "NAME": "MITCHELL SANTNER",
@@ -2121,7 +2242,8 @@ module.exports=[
                 "Avg": 35.83,
                 "Econ": 7.95
             }
-        }
+        },
+        "Base_Price": 1.5
     },
     {
         "NAME": "RAJ ANGAD BAWA",
@@ -2142,7 +2264,8 @@ module.exports=[
                 "Avg": 44.50,
                 "Econ": 8.90
             }
-        }
+        },
+        "Base_Price": 0.5
     },
     {
         "NAME": "TRENT BOULT",
@@ -2157,7 +2280,8 @@ module.exports=[
                 "Avg": 26.47,
                 "Econ": 8.25
             }
-        }
+        },
+        "Base_Price": 2.5
     },
     {
         "NAME": "KARN SHARMA",
@@ -2172,7 +2296,8 @@ module.exports=[
                 "Avg": 32.80,
                 "Econ": 8.62
             }
-        }
+        },
+        "Base_Price": 1.0
     },
     {
         "NAME": "DEEPAK CHAHAR",
@@ -2187,7 +2312,8 @@ module.exports=[
                 "Avg": 29.57,
                 "Econ": 8.85
             }
-        }
+        },
+        "Base_Price": 1.5
     },
     {
         "NAME": "ASHWANI KUMAR",
@@ -2202,7 +2328,8 @@ module.exports=[
                 "Avg": 42.25,
                 "Econ": 9.38
             }
-        }
+        },
+        "Base_Price": 0.5
     },
     {
         "NAME": "REECE TOPLEY",
@@ -2217,7 +2344,8 @@ module.exports=[
                 "Avg": 33.22,
                 "Econ": 9.15
             }
-        }
+        },
+        "Base_Price": 1.5
     },
     {
         "NAME": "V. SATYANARAYANA PENMETSA",
@@ -2232,7 +2360,8 @@ module.exports=[
                 "Avg": 48.50,
                 "Econ": 9.70
             }
-        }
+        },
+        "Base_Price": 0.5
     },
     {
         "NAME": "ARJUN TENDULKAR",
@@ -2247,7 +2376,8 @@ module.exports=[
                 "Avg": 44.33,
                 "Econ": 8.86
             }
-        }
+        },
+        "Base_Price": 0.5
     },
     {
         "NAME": "MUJEEB-UR-RAHMAN",
@@ -2262,7 +2392,8 @@ module.exports=[
                 "Avg": 38.33,
                 "Econ": 8.52
             }
-        }
+        },
+        "Base_Price": 1.0
     },
     {
         "NAME": "RAGHU SHARMA",
@@ -2277,7 +2408,8 @@ module.exports=[
                 "Avg": 56.00,
                 "Econ": 9.33
             }
-        }
+        },
+        "Base_Price": 0.5
     },
     {
         "NAME": "CHARITH ASALANKA",
@@ -2292,7 +2424,8 @@ module.exports=[
                 "Avg": 42.60,
                 "Econ": 8.52
             }
-        }
+        },
+        "Base_Price": 1.0
     },
     {
         "NAME": "RICHARD GLEESON",
@@ -2307,7 +2440,8 @@ module.exports=[
                 "Avg": 41.25,
                 "Econ": 9.16
             }
-        }
+        },
+        "Base_Price": 0.5
     },
     {
         "NAME": "JASPRIT BUMRAH",
@@ -2322,7 +2456,8 @@ module.exports=[
                 "Avg": 22.45,
                 "Econ": 7.85
             }
-        }
+        },
+        "Base_Price": 3.0
     },
     {
         "NAME": "SHREYAS IYER",
@@ -2337,7 +2472,8 @@ module.exports=[
                 "Avg": 39.83,
                 "SR": 138.37
             }
-        }
+        },
+        "Base_Price": 2.5
     },
     {
         "NAME": "NEHAL WADHERA",
@@ -2352,7 +2488,8 @@ module.exports=[
                 "Avg": 27.83,
                 "SR": 132.53
             }
-        }
+        },
+        "Base_Price": 0.5
     },
     {
         "NAME": "VISHNU VINOD",
@@ -2367,7 +2504,8 @@ module.exports=[
                 "Avg": 19.50,
                 "SR": 126.82
             }
-        }
+        },
+        "Base_Price": 0.5
     },
     {
         "NAME": "JOSH INGLIS",
@@ -2382,7 +2520,8 @@ module.exports=[
                 "Avg": 29.80,
                 "SR": 142.58
             }
-        }
+        },
+        "Base_Price": 1.5
     },
     {
         "NAME": "HARNOOR PANNU",
@@ -2397,7 +2536,8 @@ module.exports=[
                 "Avg": 16.00,
                 "SR": 118.51
             }
-        }
+        },
+        "Base_Price": 0.5
     },
     {
         "NAME": "PYLA AVINASH",
@@ -2412,7 +2552,8 @@ module.exports=[
                 "Avg": 18.00,
                 "SR": 112.50
             }
-        }
+        },
+        "Base_Price": 0.5
     },
     {
         "NAME": "PRABHSIMRAN SINGH",
@@ -2427,7 +2568,8 @@ module.exports=[
                 "Avg": 26.71,
                 "SR": 145.31
             }
-        }
+        },
+        "Base_Price": 1.0
     },
     {
         "NAME": "SHASHANK SINGH",
@@ -2442,7 +2584,8 @@ module.exports=[
                 "Avg": 29.00,
                 "SR": 148.97
             }
-        }
+        },
+        "Base_Price": 0.5
     },
     {
         "NAME": "MARCUS STOINIS",
@@ -2463,7 +2606,8 @@ module.exports=[
                 "Avg": 29.61,
                 "Econ": 9.25
             }
-        }
+        },
+        "Base_Price": 2.0
     },
     {
         "NAME": "HARPREET BRAR",
@@ -2484,7 +2628,8 @@ module.exports=[
                 "Avg": 36.14,
                 "Econ": 8.02
             }
-        }
+        },
+        "Base_Price": 1.0
     },
     {
         "NAME": "MARCO JANSEN",
@@ -2505,7 +2650,8 @@ module.exports=[
                 "Avg": 28.63,
                 "Econ": 8.85
             }
-        }
+        },
+        "Base_Price": 1.5
     },
     {
         "NAME": "AZMATULLAH OMARZAI",
@@ -2526,7 +2672,8 @@ module.exports=[
                 "Avg": 38.80,
                 "Econ": 9.15
             }
-        }
+        },
+        "Base_Price": 1.0
     },
     {
         "NAME": "PRIYANSH ARYA",
@@ -2547,7 +2694,8 @@ module.exports=[
                 "Avg": 52.00,
                 "Econ": 8.66
             }
-        }
+        },
+        "Base_Price": 0.5
     },
     {
         "NAME": "AARON HARDIE",
@@ -2568,7 +2716,8 @@ module.exports=[
                 "Avg": 36.40,
                 "Econ": 8.65
             }
-        }
+        },
+        "Base_Price": 1.5
     },
     {
         "NAME": "MUSHEER KHAN",
@@ -2589,7 +2738,8 @@ module.exports=[
                 "Avg": 54.00,
                 "Econ": 9.00
             }
-        }
+        },
+        "Base_Price": 0.5
     },
     {
         "NAME": "SURYANSH SHEDGE",
@@ -2610,7 +2760,8 @@ module.exports=[
                 "Avg": 0,
                 "Econ": 8.20
             }
-        }
+        },
+        "Base_Price": 0.5
     },
     {
         "NAME": "MITCH OWEN",
@@ -2625,7 +2776,8 @@ module.exports=[
                 "Avg": 16.00,
                 "SR": 118.51
             }
-        }
+        },
+        "Base_Price": 0.5
     },
     {
         "NAME": "ARSHDEEP SINGH",
@@ -2640,7 +2792,8 @@ module.exports=[
                 "Avg": 26.11,
                 "Econ": 8.55
             }
-        }
+        },
+        "Base_Price": 2.0
     },
     {
         "NAME": "YUZVENDRA CHAHAL",
@@ -2655,7 +2808,8 @@ module.exports=[
                 "Avg": 27.18,
                 "Econ": 8.25
             }
-        }
+        },
+        "Base_Price": 2.0
     },
     {
         "NAME": "VYSHAK VIJAYKUMAR",
@@ -2670,7 +2824,8 @@ module.exports=[
                 "Avg": 32.80,
                 "Econ": 9.10
             }
-        }
+        },
+        "Base_Price": 1.0
     },
     {
         "NAME": "YASH THAKUR",
@@ -2685,7 +2840,8 @@ module.exports=[
                 "Avg": 29.69,
                 "Econ": 8.95
             }
-        }
+        },
+        "Base_Price": 1.0
     },
     {
         "NAME": "KULDEEP SEN",
@@ -2700,7 +2856,8 @@ module.exports=[
                 "Avg": 38.33,
                 "Econ": 9.58
             }
-        }
+        },
+        "Base_Price": 0.5
     },
     {
         "NAME": "XAVIER BARTLETT",
@@ -2715,7 +2872,8 @@ module.exports=[
                 "Avg": 42.60,
                 "Econ": 8.52
             }
-        }
+        },
+        "Base_Price": 0.5
     },
     {
         "NAME": "PRAVIN DUBEY",
@@ -2730,7 +2888,8 @@ module.exports=[
                 "Avg": 44.33,
                 "Econ": 8.86
             }
-        }
+        },
+        "Base_Price": 0.5
     },
     {
         "NAME": "KYLE JAMIESON",
@@ -2745,10 +2904,9 @@ module.exports=[
                 "Avg": 33.22,
                 "Econ": 9.15
             }
-        }
-    }
-,
-
+        },
+        "Base_Price": 1.5
+    },
     {
         "NAME": "RAJAT PATIDAR",
         "ROLE": "BATTER",
@@ -2762,7 +2920,8 @@ module.exports=[
                 "Avg": 34.33,
                 "SR": 145.23
             }
-        }
+        },
+        "Base_Price": 1.5
     },
     {
         "NAME": "VIRAT KOHLI",
@@ -2777,7 +2936,8 @@ module.exports=[
                 "Avg": 52.15,
                 "SR": 142.10
             }
-        }
+        },
+        "Base_Price": 3.0
     },
     {
         "NAME": "PHIL SALT",
@@ -2792,7 +2952,8 @@ module.exports=[
                 "Avg": 40.23,
                 "SR": 148.58
             }
-        }
+        },
+        "Base_Price": 2.5
     },
     {
         "NAME": "JITESH SHARMA",
@@ -2807,7 +2968,8 @@ module.exports=[
                 "Avg": 27.22,
                 "SR": 152.17
             }
-        }
+        },
+        "Base_Price": 1.0
     },
     {
         "NAME": "SWASTIK CHHIKARA",
@@ -2822,7 +2984,8 @@ module.exports=[
                 "Avg": 16.00,
                 "SR": 118.51
             }
-        }
+        },
+        "Base_Price": 0.5
     },
     {
         "NAME": "TIM SEIFERT",
@@ -2837,7 +3000,8 @@ module.exports=[
                 "Avg": 19.60,
                 "SR": 132.43
             }
-        }
+        },
+        "Base_Price": 1.0
     },
     {
         "NAME": "MAYANK AGARWAL",
@@ -2852,7 +3016,8 @@ module.exports=[
                 "Avg": 26.00,
                 "SR": 128.57
             }
-        }
+        },
+        "Base_Price": 1.0
     },
     {
         "NAME": "LIAM LIVINGSTONE",
@@ -2873,7 +3038,8 @@ module.exports=[
                 "Avg": 36.25,
                 "Econ": 8.85
             }
-        }
+        },
+        "Base_Price": 2.0
     },
     {
         "NAME": "KRUNAL PANDYA",
@@ -2894,7 +3060,8 @@ module.exports=[
                 "Avg": 32.08,
                 "Econ": 8.15
             }
-        }
+        },
+        "Base_Price": 1.5
     },
     {
         "NAME": "SWAPNIL SINGH",
@@ -2915,7 +3082,8 @@ module.exports=[
                 "Avg": 41.33,
                 "Econ": 8.26
             }
-        }
+        },
+        "Base_Price": 0.5
     },
     {
         "NAME": "TIM DAVID",
@@ -2936,7 +3104,8 @@ module.exports=[
                 "Avg": 48.50,
                 "Econ": 9.70
             }
-        }
+        },
+        "Base_Price": 1.5
     },
     {
         "NAME": "ROMARIO SHEPHERD",
@@ -2957,7 +3126,8 @@ module.exports=[
                 "Avg": 38.33,
                 "Econ": 9.58
             }
-        }
+        },
+        "Base_Price": 1.0
     },
     {
         "NAME": "MANOJ BHANDAGE",
@@ -2978,7 +3148,8 @@ module.exports=[
                 "Avg": 52.00,
                 "Econ": 8.66
             }
-        }
+        },
+        "Base_Price": 0.5
     },
     {
         "NAME": "BLESSING MUZARABANI",
@@ -2993,7 +3164,8 @@ module.exports=[
                 "Avg": 32.12,
                 "Econ": 8.90
             }
-        }
+        },
+        "Base_Price": 1.0
     },
     {
         "NAME": "JOSH HAZLEWOOD",
@@ -3008,7 +3180,8 @@ module.exports=[
                 "Avg": 27.13,
                 "Econ": 8.25
             }
-        }
+        },
+        "Base_Price": 2.0
     },
     {
         "NAME": "RASIKH DAR",
@@ -3023,7 +3196,8 @@ module.exports=[
                 "Avg": 42.25,
                 "Econ": 9.38
             }
-        }
+        },
+        "Base_Price": 0.5
     },
     {
         "NAME": "SUYASH SHARMA",
@@ -3038,7 +3212,8 @@ module.exports=[
                 "Avg": 42.60,
                 "Econ": 8.52
             }
-        }
+        },
+        "Base_Price": 0.5
     },
     {
         "NAME": "BHUVNESHWAR KUMAR",
@@ -3053,7 +3228,8 @@ module.exports=[
                 "Avg": 28.18,
                 "Econ": 8.45
             }
-        }
+        },
+        "Base_Price": 1.5
     },
     {
         "NAME": "NUWAN THUSHARA",
@@ -3068,7 +3244,8 @@ module.exports=[
                 "Avg": 34.22,
                 "Econ": 9.25
             }
-        }
+        },
+        "Base_Price": 1.0
     },
     {
         "NAME": "LUNGISANI NGIDI",
@@ -3083,7 +3260,8 @@ module.exports=[
                 "Avg": 42.60,
                 "Econ": 8.52
             }
-        }
+        },
+        "Base_Price": 1.0
     },
     {
         "NAME": "ABHINANDAN SINGH",
@@ -3098,7 +3276,8 @@ module.exports=[
                 "Avg": 56.00,
                 "Econ": 9.33
             }
-        }
+        },
+        "Base_Price": 0.5
     },
     {
         "NAME": "MOHIT RATHEE",
@@ -3113,7 +3292,8 @@ module.exports=[
                 "Avg": 48.50,
                 "Econ": 9.70
             }
-        }
+        },
+        "Base_Price": 0.5
     },
     {
         "NAME": "YASH DAYAL",
@@ -3128,8 +3308,10 @@ module.exports=[
                 "Avg": 32.80,
                 "Econ": 9.10
             }
-        }
+        },
+        "Base_Price": 1.0
     },
+    [
     {
         "NAME": "SANJU SAMSON",
         "ROLE": "WK-BATTER",
@@ -3143,7 +3325,8 @@ module.exports=[
                 "Avg": 41.07,
                 "SR": 146.30
             }
-        }
+        },
+        "Base_Price": 2.5
     },
     {
         "NAME": "SHUBHAM DUBEY",
@@ -3158,7 +3341,8 @@ module.exports=[
                 "Avg": 16.75,
                 "SR": 121.81
             }
-        }
+        },
+        "Base_Price": 0.5
     },
     {
         "NAME": "VAIBHAV SURYAVANSHI",
@@ -3173,7 +3357,8 @@ module.exports=[
                 "Avg": 16.00,
                 "SR": 118.51
             }
-        }
+        },
+        "Base_Price": 0.5
     },
     {
         "NAME": "KUNAL RATHORE",
@@ -3188,7 +3373,8 @@ module.exports=[
                 "Avg": 15.00,
                 "SR": 115.38
             }
-        }
+        },
+        "Base_Price": 0.5
     },
     {
         "NAME": "LUHAN-DRE-PRETORIUS",
@@ -3203,7 +3389,8 @@ module.exports=[
                 "Avg": 19.60,
                 "SR": 132.43
             }
-        }
+        },
+        "Base_Price": 0.5
     },
     {
         "NAME": "SHIMRON HETMYER",
@@ -3218,7 +3405,8 @@ module.exports=[
                 "Avg": 31.20,
                 "SR": 152.19
             }
-        }
+        },
+        "Base_Price": 1.5
     },
     {
         "NAME": "YASHASVI JAISWAL",
@@ -3233,7 +3421,8 @@ module.exports=[
                 "Avg": 42.07,
                 "SR": 148.61
             }
-        }
+        },
+        "Base_Price": 3.0
     },
     {
         "NAME": "DHRUV JUREL",
@@ -3248,7 +3437,8 @@ module.exports=[
                 "Avg": 30.62,
                 "SR": 142.44
             }
-        }
+        },
+        "Base_Price": 1.0
     },
     {
         "NAME": "RIYAN PARAG",
@@ -3263,7 +3453,8 @@ module.exports=[
                 "Avg": 34.33,
                 "SR": 138.25
             }
-        }
+        },
+        "Base_Price": 1.5
     },
     {
         "NAME": "YUDHVIR SINGH CHARAK",
@@ -3284,7 +3475,8 @@ module.exports=[
                 "Avg": 44.50,
                 "Econ": 8.90
             }
-        }
+        },
+        "Base_Price": 0.5
     },
     {
         "NAME": "JOFRA ARCHER",
@@ -3299,7 +3491,8 @@ module.exports=[
                 "Avg": 33.22,
                 "Econ": 9.15
             }
-        }
+        },
+        "Base_Price": 1.5
     },
     {
         "NAME": "MAHEESH THEEKSHANA",
@@ -3314,7 +3507,8 @@ module.exports=[
                 "Avg": 31.81,
                 "Econ": 8.05
             }
-        }
+        },
+        "Base_Price": 1.5
     },
     {
         "NAME": "WANINDU HASARANGA",
@@ -3329,7 +3523,8 @@ module.exports=[
                 "Avg": 26.85,
                 "Econ": 7.92
             }
-        }
+        },
+        "Base_Price": 2.0
     },
     {
         "NAME": "AKASH MADHWAL",
@@ -3344,7 +3539,8 @@ module.exports=[
                 "Avg": 29.69,
                 "Econ": 9.10
             }
-        }
+        },
+        "Base_Price": 1.0
     },
     {
         "NAME": "KUMAR KARTIKEYA SINGH",
@@ -3359,7 +3555,8 @@ module.exports=[
                 "Avg": 41.85,
                 "Econ": 9.30
             }
-        }
+        },
+        "Base_Price": 0.5
     },
     {
         "NAME": "TUSHAR DESHPANDE",
@@ -3374,7 +3571,8 @@ module.exports=[
                 "Avg": 28.73,
                 "Econ": 9.25
             }
-        }
+        },
+        "Base_Price": 1.0
     },
     {
         "NAME": "FAZALHAQ FAROOQI",
@@ -3389,7 +3587,8 @@ module.exports=[
                 "Avg": 38.33,
                 "Econ": 8.52
             }
-        }
+        },
+        "Base_Price": 1.0
     },
     {
         "NAME": "KWENA MAPHAKA",
@@ -3404,7 +3603,8 @@ module.exports=[
                 "Avg": 44.33,
                 "Econ": 8.86
             }
-        }
+        },
+        "Base_Price": 0.5
     },
     {
         "NAME": "ASHOK SHARMA",
@@ -3419,7 +3619,8 @@ module.exports=[
                 "Avg": 48.50,
                 "Econ": 9.70
             }
-        }
+        },
+        "Base_Price": 0.5
     },
     {
         "NAME": "NANDRE BURGER",
@@ -3434,7 +3635,8 @@ module.exports=[
                 "Avg": 42.60,
                 "Econ": 8.52
             }
-        }
+        },
+        "Base_Price": 0.5
     },
     {
         "NAME": "ISHAN KISHAN",
@@ -3449,7 +3651,8 @@ module.exports=[
                 "Avg": 36.76,
                 "SR": 142.26
             }
-        }
+        },
+        "Base_Price": 2.0
     },
     {
         "NAME": "ATHARVA TAIDE",
@@ -3464,7 +3667,8 @@ module.exports=[
                 "Avg": 27.83,
                 "SR": 128.46
             }
-        }
+        },
+        "Base_Price": 0.5
     },
     {
         "NAME": "ABHINAV MANOHAR",
@@ -3479,7 +3683,8 @@ module.exports=[
                 "Avg": 19.60,
                 "SR": 132.43
             }
-        }
+        },
+        "Base_Price": 0.5
     },
     {
         "NAME": "ANIKET VARMA",
@@ -3494,7 +3699,8 @@ module.exports=[
                 "Avg": 14.00,
                 "SR": 116.66
             }
-        }
+        },
+        "Base_Price": 0.5
     },
     {
         "NAME": "SACHIN BABY",
@@ -3509,7 +3715,8 @@ module.exports=[
                 "Avg": 15.00,
                 "SR": 115.38
             }
-        }
+        },
+        "Base_Price": 0.5
     },
     {
         "NAME": "SMARAN RAVICHANDRAN",
@@ -3524,7 +3731,8 @@ module.exports=[
                 "Avg": 18.00,
                 "SR": 112.50
             }
-        }
+        },
+        "Base_Price": 0.5
     },
     {
         "NAME": "HENRICH KLAASEN",
@@ -3539,7 +3747,8 @@ module.exports=[
                 "Avg": 40.23,
                 "SR": 158.48
             }
-        }
+        },
+        "Base_Price": 2.5
     },
     {
         "NAME": "TRAVIS HEAD",
@@ -3554,7 +3763,8 @@ module.exports=[
                 "Avg": 35.92,
                 "SR": 152.28
             }
-        }
+        },
+        "Base_Price": 2.0
     },
     {
         "NAME": "HARSHAL PATEL",
@@ -3575,7 +3785,8 @@ module.exports=[
                 "Avg": 28.57,
                 "Econ": 9.25
             }
-        }
+        },
+        "Base_Price": 1.5
     },
     {
         "NAME": "KAMINDU MENDIS",
@@ -3596,7 +3807,8 @@ module.exports=[
                 "Avg": 44.50,
                 "Econ": 8.90
             }
-        }
+        },
+        "Base_Price": 0.5
     },
     {
         "NAME": "WIAAN MULDER",
@@ -3617,7 +3829,8 @@ module.exports=[
                 "Avg": 38.80,
                 "Econ": 9.15
             }
-        }
+        },
+        "Base_Price": 1.0
     },
     {
         "NAME": "HARSH DUBEY",
@@ -3638,7 +3851,8 @@ module.exports=[
                 "Avg": 52.00,
                 "Econ": 8.66
             }
-        }
+        },
+        "Base_Price": 0.5
     },
     {
         "NAME": "ABHISHEK SHARMA",
@@ -3659,7 +3873,8 @@ module.exports=[
                 "Avg": 38.33,
                 "Econ": 8.52
             }
-        }
+        },
+        "Base_Price": 1.5
     },
     {
         "NAME": "NITISH KUMAR REDDY",
@@ -3680,7 +3895,8 @@ module.exports=[
                 "Avg": 41.25,
                 "Econ": 9.16
             }
-        }
+        },
+        "Base_Price": 0.5
     },
     {
         "NAME": "PAT CUMMINS",
@@ -3695,7 +3911,8 @@ module.exports=[
                 "Avg": 25.72,
                 "Econ": 8.35
             }
-        }
+        },
+        "Base_Price": 3.0
     },
     {
         "NAME": "MOHAMMAD SHAMI",
@@ -3710,7 +3927,8 @@ module.exports=[
                 "Avg": 23.68,
                 "Econ": 8.25
             }
-        }
+        },
+        "Base_Price": 2.5
     },
     {
         "NAME": "RAHUL CHAHAR",
@@ -3725,7 +3943,8 @@ module.exports=[
                 "Avg": 28.73,
                 "Econ": 8.25
             }
-        }
+        },
+        "Base_Price": 1.5
     },
     {
         "NAME": "SIMARJEET SINGH",
@@ -3740,7 +3959,8 @@ module.exports=[
                 "Avg": 41.85,
                 "Econ": 9.30
             }
-        }
+        },
+        "Base_Price": 0.5
     },
     {
         "NAME": "ZEESHAN ANSARI",
@@ -3755,7 +3975,8 @@ module.exports=[
                 "Avg": 44.33,
                 "Econ": 8.86
             }
-        }
+        },
+        "Base_Price": 0.5
     },
     {
         "NAME": "JAYDEV UNADKAT",
@@ -3770,7 +3991,8 @@ module.exports=[
                 "Avg": 39.12,
                 "Econ": 9.35
             }
-        }
+        },
+        "Base_Price": 1.0
     },
     {
         "NAME": "ESHAN MALLINGA",
@@ -3785,6 +4007,8 @@ module.exports=[
                 "Avg": 42.25,
                 "Econ": 9.38
             }
-        }
+        },
+        "Base_Price": 0.5
     }
+]
 ]

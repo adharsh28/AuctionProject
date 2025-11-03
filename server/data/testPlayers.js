@@ -1,4 +1,4 @@
-module.exports = [
+export default[
   {
     NAME: "Liam Livingstone",
     ROLE: "ALL-ROUNDER",

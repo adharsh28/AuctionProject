@@ -1,9 +1,10 @@
-module.exports=[
+export default[
     {
         "NAME": "Liam Livingstone",
         "TEAM": "Birmingham Phoenix Men",
         "ROLE": "All-Rounder",
         "NATION": "England",
+        "BASE_PRICE": 2.7,
         "STATS": {
             "Batting": {
                 "M": 8,
@@ -25,6 +26,7 @@ module.exports=[
         "TEAM": "Birmingham Phoenix Men",
         "ROLE": "WK-Batter",
         "NATION": "England",
+        "BASE_PRICE": 2.3,
         "STATS": {
             "Batting": {
                 "M": 8,
@@ -40,6 +42,7 @@ module.exports=[
         "TEAM": "Birmingham Phoenix Men",
         "ROLE": "Batter",
         "NATION": "England",
+        "BASE_PRICE": 1.6,
         "STATS": {
             "Batting": {
                 "M": 6,
@@ -55,6 +58,7 @@ module.exports=[
         "TEAM": "Birmingham Phoenix Men",
         "ROLE": "Batter",
         "NATION": "England",
+        "BASE_PRICE": 1.8,
         "STATS": {
             "Batting": {
                 "M": 7,
@@ -70,6 +74,7 @@ module.exports=[
         "TEAM": "Birmingham Phoenix Men",
         "ROLE": "Batter",
         "NATION": "England",
+        "BASE_PRICE": 2.1,
         "STATS": {
             "Batting": {
                 "M": 8,
@@ -85,6 +90,7 @@ module.exports=[
         "TEAM": "Birmingham Phoenix Men",
         "ROLE": "All-Rounder",
         "NATION": "England",
+        "BASE_PRICE": 2.0,
         "STATS": {
             "Batting": {
                 "M": 7,
@@ -106,6 +112,7 @@ module.exports=[
         "TEAM": "Birmingham Phoenix Men",
         "ROLE": "All-Rounder",
         "NATION": "England",
+        "BASE_PRICE": 1.5,
         "STATS": {
             "Batting": {
                 "M": 5,
@@ -127,6 +134,7 @@ module.exports=[
         "TEAM": "Birmingham Phoenix Men",
         "ROLE": "Batter",
         "NATION": "England",
+        "BASE_PRICE": 1.2,
         "STATS": {
             "Batting": {
                 "M": 4,
@@ -142,6 +150,7 @@ module.exports=[
         "TEAM": "Birmingham Phoenix Men",
         "ROLE": "Bowler",
         "NATION": "New Zealand",
+        "BASE_PRICE": 2.2,
         "STATS": {
             "Bowling": {
                 "M": 7,
@@ -157,6 +166,7 @@ module.exports=[
         "TEAM": "Birmingham Phoenix Men",
         "ROLE": "Bowler",
         "NATION": "New Zealand",
+        "BASE_PRICE": 2.3,
         "STATS": {
             "Bowling": {
                 "M": 8,
@@ -172,6 +182,7 @@ module.exports=[
         "TEAM": "Birmingham Phoenix Men",
         "ROLE": "Batter",
         "NATION": "Wales",
+        "BASE_PRICE": 1.1,
         "STATS": {
             "Batting": {
                 "M": 3,
@@ -187,6 +198,7 @@ module.exports=[
         "TEAM": "Birmingham Phoenix Men",
         "ROLE": "Bowler",
         "NATION": "New Zealand",
+        "BASE_PRICE": 2.6,
         "STATS": {
             "Bowling": {
                 "M": 8,
@@ -202,6 +214,7 @@ module.exports=[
         "TEAM": "Birmingham Phoenix Men",
         "ROLE": "Bowler",
         "NATION": "England",
+        "BASE_PRICE": 1.8,
         "STATS": {
             "Bowling": {
                 "M": 6,
@@ -217,6 +230,7 @@ module.exports=[
         "TEAM": "Birmingham Phoenix Men",
         "ROLE": "Batter",
         "NATION": "England",
+        "BASE_PRICE": 1.0,
         "STATS": {
             "Batting": {
                 "M": 2,
@@ -232,6 +246,7 @@ module.exports=[
         "TEAM": "Birmingham Phoenix Men",
         "ROLE": "All-Rounder",
         "NATION": "England",
+        "BASE_PRICE": 1.4,
         "STATS": {
             "Batting": {
                 "M": 4,
@@ -253,6 +268,7 @@ module.exports=[
         "TEAM": "Birmingham Phoenix Men",
         "ROLE": "Bowler",
         "NATION": "England",
+        "BASE_PRICE": 1.7,
         "STATS": {
             "Bowling": {
                 "M": 5,
@@ -268,6 +284,7 @@ module.exports=[
         "TEAM": "Oval Invincibles Men",
         "ROLE": "WK-Batter",
         "NATION": "England",
+        "BASE_PRICE": 2.4,
         "STATS": {
             "Batting": {
                 "M": 8,
@@ -283,6 +300,7 @@ module.exports=[
         "TEAM": "Oval Invincibles Men",
         "ROLE": "All-Rounder",
         "NATION": "England",
+        "BASE_PRICE": 2.5,
         "STATS": {
             "Batting": {
                 "M": 8,
@@ -304,6 +322,7 @@ module.exports=[
         "TEAM": "Oval Invincibles Men",
         "ROLE": "Batter",
         "NATION": "England",
+        "BASE_PRICE": 1.7,
         "STATS": {
             "Batting": {
                 "M": 6,
@@ -319,6 +338,7 @@ module.exports=[
         "TEAM": "Oval Invincibles Men",
         "ROLE": "All-Rounder",
         "NATION": "England",
+        "BASE_PRICE": 2.4,
         "STATS": {
             "Batting": {
                 "M": 8,
@@ -340,6 +360,7 @@ module.exports=[
         "TEAM": "Oval Invincibles Men",
         "ROLE": "WK-Batter",
         "NATION": "South Africa",
+        "BASE_PRICE": 1.8,
         "STATS": {
             "Batting": {
                 "M": 5,
@@ -355,6 +376,7 @@ module.exports=[
         "TEAM": "Oval Invincibles Men",
         "ROLE": "WK-Batter",
         "NATION": "England",
+        "BASE_PRICE": 1.9,
         "STATS": {
             "Batting": {
                 "M": 7,
@@ -370,6 +392,7 @@ module.exports=[
         "TEAM": "Oval Invincibles Men",
         "ROLE": "Bowler",
         "NATION": "Afghanistan",
+        "BASE_PRICE": 2.8,
         "STATS": {
             "Bowling": {
                 "M": 8,
@@ -385,6 +408,7 @@ module.exports=[
         "TEAM": "Oval Invincibles Men",
         "ROLE": "All-Rounder",
         "NATION": "England",
+        "BASE_PRICE": 2.0,
         "STATS": {
             "Batting": {
                 "M": 6,
@@ -406,6 +430,7 @@ module.exports=[
         "TEAM": "Oval Invincibles Men",
         "ROLE": "All-Rounder",
         "NATION": "England",
+        "BASE_PRICE": 1.6,
         "STATS": {
             "Batting": {
                 "M": 5,
@@ -427,6 +452,7 @@ module.exports=[
         "TEAM": "Oval Invincibles Men",
         "ROLE": "Bowler",
         "NATION": "England",
+        "BASE_PRICE": 1.8,
         "STATS": {
             "Bowling": {
                 "M": 6,
@@ -442,6 +468,7 @@ module.exports=[
         "TEAM": "Oval Invincibles Men",
         "ROLE": "Bowler",
         "NATION": "Australia",
+        "BASE_PRICE": 2.1,
         "STATS": {
             "Bowling": {
                 "M": 7,
@@ -457,6 +484,7 @@ module.exports=[
         "TEAM": "Oval Invincibles Men",
         "ROLE": "Bowler",
         "NATION": "England",
+        "BASE_PRICE": 1.8,
         "STATS": {
             "Bowling": {
                 "M": 6,
@@ -472,6 +500,7 @@ module.exports=[
         "TEAM": "Oval Invincibles Men",
         "ROLE": "Bowler",
         "NATION": "Australia",
+        "BASE_PRICE": 1.7,
         "STATS": {
             "Bowling": {
                 "M": 5,
@@ -487,6 +516,7 @@ module.exports=[
         "TEAM": "Oval Invincibles Men",
         "ROLE": "Batter",
         "NATION": "England",
+        "BASE_PRICE": 1.2,
         "STATS": {
             "Batting": {
                 "M": 4,
@@ -502,6 +532,7 @@ module.exports=[
         "TEAM": "Oval Invincibles Men",
         "ROLE": "Bowler",
         "NATION": "England",
+        "BASE_PRICE": 1.5,
         "STATS": {
             "Bowling": {
                 "M": 4,
@@ -517,6 +548,7 @@ module.exports=[
         "TEAM": "Manchester Originals Men",
         "ROLE": "WK-Batter",
         "NATION": "England",
+        "BASE_PRICE": 2.8,
         "STATS": {
             "Batting": {
                 "M": 8,
@@ -532,6 +564,7 @@ module.exports=[
         "TEAM": "Manchester Originals Men",
         "ROLE": "WK-Batter",
         "NATION": "England",
+        "BASE_PRICE": 2.4,
         "STATS": {
             "Batting": {
                 "M": 8,
@@ -547,6 +580,7 @@ module.exports=[
         "TEAM": "Manchester Originals Men",
         "ROLE": "WK-Batter",
         "NATION": "South Africa",
+        "BASE_PRICE": 2.5,
         "STATS": {
             "Batting": {
                 "M": 7,
@@ -562,6 +596,7 @@ module.exports=[
         "TEAM": "Manchester Originals Men",
         "ROLE": "All-Rounder",
         "NATION": "England",
+        "BASE_PRICE": 2.1,
         "STATS": {
             "Batting": {
                 "M": 7,
@@ -583,6 +618,7 @@ module.exports=[
         "TEAM": "Manchester Originals Men",
         "ROLE": "Batter",
         "NATION": "New Zealand",
+        "BASE_PRICE": 1.5,
         "STATS": {
             "Batting": {
                 "M": 5,
@@ -598,6 +634,7 @@ module.exports=[
         "TEAM": "Manchester Originals Men",
         "ROLE": "Batter",
         "NATION": "England",
+        "BASE_PRICE": 1.2,
         "STATS": {
             "Batting": {
                 "M": 3,
@@ -613,6 +650,7 @@ module.exports=[
         "TEAM": "Manchester Originals Men",
         "ROLE": "Bowler",
         "NATION": "England",
+        "BASE_PRICE": 1.5,
         "STATS": {
             "Bowling": {
                 "M": 5,
@@ -628,6 +666,7 @@ module.exports=[
         "TEAM": "Manchester Originals Men",
         "ROLE": "All-Rounder",
         "NATION": "New Zealand",
+        "BASE_PRICE": 2.0,
         "STATS": {
             "Batting": {
                 "M": 6,
@@ -649,6 +688,7 @@ module.exports=[
         "TEAM": "Manchester Originals Men",
         "ROLE": "WK-Batter",
         "NATION": "England",
+        "BASE_PRICE": 1.1,
         "STATS": {
             "Batting": {
                 "M": 3,
@@ -664,6 +704,7 @@ module.exports=[
         "TEAM": "Manchester Originals Men",
         "ROLE": "All-Rounder",
         "NATION": "England",
+        "BASE_PRICE": 1.4,
         "STATS": {
             "Batting": {
                 "M": 4,
@@ -685,6 +726,7 @@ module.exports=[
         "TEAM": "Manchester Originals Men",
         "ROLE": "Bowler",
         "NATION": "England",
+        "BASE_PRICE": 1.8,
         "STATS": {
             "Bowling": {
                 "M": 6,
@@ -700,6 +742,7 @@ module.exports=[
         "TEAM": "Manchester Originals Men",
         "ROLE": "Bowler",
         "NATION": "Afghanistan",
+        "BASE_PRICE": 2.1,
         "STATS": {
             "Bowling": {
                 "M": 5,
@@ -715,6 +758,7 @@ module.exports=[
         "TEAM": "Manchester Originals Men",
         "ROLE": "Bowler",
         "NATION": "England",
+        "BASE_PRICE": 1.6,
         "STATS": {
             "Bowling": {
                 "M": 4,
@@ -730,6 +774,7 @@ module.exports=[
         "TEAM": "Manchester Originals Men",
         "ROLE": "Bowler",
         "NATION": "England",
+        "BASE_PRICE": 1.2,
         "STATS": {
             "Bowling": {
                 "M": 3,
@@ -745,6 +790,7 @@ module.exports=[
         "TEAM": "Manchester Originals Men",
         "ROLE": "Bowler",
         "NATION": "England",
+        "BASE_PRICE": 1.5,
         "STATS": {
             "Bowling": {
                 "M": 5,
@@ -760,6 +806,7 @@ module.exports=[
         "TEAM": "Manchester Originals Men",
         "ROLE": "All-Rounder",
         "NATION": "England",
+        "BASE_PRICE": 1.0,
         "STATS": {
             "Batting": {
                 "M": 2,
@@ -781,6 +828,7 @@ module.exports=[
         "TEAM": "Manchester Originals Men",
         "ROLE": "Bowler",
         "NATION": "England",
+        "BASE_PRICE": 0.9,
         "STATS": {
             "Bowling": {
                 "M": 2,
@@ -790,13 +838,13 @@ module.exports=[
                 "Econ": 9.00
             }
         }
-    }
-,
+    },
     {
         "NAME": "Tom Banton",
         "TEAM": "Trent Rockets Men",
         "ROLE": "WK-Batter",
         "NATION": "England",
+        "BASE_PRICE": 1.9,
         "STATS": {
             "Batting": {
                 "M": 7,
@@ -812,6 +860,7 @@ module.exports=[
         "TEAM": "Trent Rockets Men",
         "ROLE": "Batter",
         "NATION": "England",
+        "BASE_PRICE": 2.3,
         "STATS": {
             "Batting": {
                 "M": 8,
@@ -827,6 +876,7 @@ module.exports=[
         "TEAM": "Trent Rockets Men",
         "ROLE": "All-Rounder",
         "NATION": "England",
+        "BASE_PRICE": 2.0,
         "STATS": {
             "Batting": {
                 "M": 6,
@@ -848,6 +898,7 @@ module.exports=[
         "TEAM": "Trent Rockets Men",
         "ROLE": "WK-Batter",
         "NATION": "England",
+        "BASE_PRICE": 1.5,
         "STATS": {
             "Batting": {
                 "M": 5,
@@ -863,6 +914,7 @@ module.exports=[
         "TEAM": "Trent Rockets Men",
         "ROLE": "All-Rounder",
         "NATION": "Australia",
+        "BASE_PRICE": 2.5,
         "STATS": {
             "Batting": {
                 "M": 7,
@@ -884,6 +936,7 @@ module.exports=[
         "TEAM": "Trent Rockets Men",
         "ROLE": "Batter",
         "NATION": "England",
+        "BASE_PRICE": 1.7,
         "STATS": {
             "Batting": {
                 "M": 6,
@@ -899,6 +952,7 @@ module.exports=[
         "TEAM": "Trent Rockets Men",
         "ROLE": "All-Rounder",
         "NATION": "South Africa",
+        "BASE_PRICE": 1.8,
         "STATS": {
             "Batting": {
                 "M": 5,
@@ -920,6 +974,7 @@ module.exports=[
         "TEAM": "Trent Rockets Men",
         "ROLE": "Batter",
         "NATION": "England",
+        "BASE_PRICE": 1.2,
         "STATS": {
             "Batting": {
                 "M": 4,
@@ -935,6 +990,7 @@ module.exports=[
         "TEAM": "Trent Rockets Men",
         "ROLE": "All-Rounder",
         "NATION": "England",
+        "BASE_PRICE": 2.1,
         "STATS": {
             "Batting": {
                 "M": 7,
@@ -956,6 +1012,7 @@ module.exports=[
         "TEAM": "Trent Rockets Men",
         "ROLE": "WK-Batter",
         "NATION": "England",
+        "BASE_PRICE": 1.1,
         "STATS": {
             "Batting": {
                 "M": 3,
@@ -971,6 +1028,7 @@ module.exports=[
         "TEAM": "Trent Rockets Men",
         "ROLE": "Batter",
         "NATION": "England",
+        "BASE_PRICE": 1.3,
         "STATS": {
             "Batting": {
                 "M": 4,
@@ -986,6 +1044,7 @@ module.exports=[
         "TEAM": "Trent Rockets Men",
         "ROLE": "Bowler",
         "NATION": "England",
+        "BASE_PRICE": 1.5,
         "STATS": {
             "Bowling": {
                 "M": 5,
@@ -1001,6 +1060,7 @@ module.exports=[
         "TEAM": "Trent Rockets Men",
         "ROLE": "Bowler",
         "NATION": "England",
+        "BASE_PRICE": 1.6,
         "STATS": {
             "Bowling": {
                 "M": 4,
@@ -1016,6 +1076,7 @@ module.exports=[
         "TEAM": "Trent Rockets Men",
         "ROLE": "Bowler",
         "NATION": "New Zealand",
+        "BASE_PRICE": 2.2,
         "STATS": {
             "Bowling": {
                 "M": 7,
@@ -1031,6 +1092,7 @@ module.exports=[
         "TEAM": "Trent Rockets Men",
         "ROLE": "Bowler",
         "NATION": "Bangladesh",
+        "BASE_PRICE": 1.1,
         "STATS": {
             "Bowling": {
                 "M": 3,
@@ -1046,6 +1108,7 @@ module.exports=[
         "TEAM": "Trent Rockets Men",
         "ROLE": "Bowler",
         "NATION": "England",
+        "BASE_PRICE": 1.3,
         "STATS": {
             "Bowling": {
                 "M": 4,
@@ -1061,6 +1124,7 @@ module.exports=[
         "TEAM": "Trent Rockets Men",
         "ROLE": "Bowler",
         "NATION": "England",
+        "BASE_PRICE": 1.2,
         "STATS": {
             "Bowling": {
                 "M": 3,
@@ -1076,6 +1140,7 @@ module.exports=[
         "TEAM": "Welsh Fire Men",
         "ROLE": "WK-Batter",
         "NATION": "England",
+        "BASE_PRICE": 2.5,
         "STATS": {
             "Batting": {
                 "M": 8,
@@ -1091,6 +1156,7 @@ module.exports=[
         "TEAM": "Welsh Fire Men",
         "ROLE": "Batter",
         "NATION": "Australia",
+        "BASE_PRICE": 2.2,
         "STATS": {
             "Batting": {
                 "M": 7,
@@ -1106,6 +1172,7 @@ module.exports=[
         "TEAM": "Welsh Fire Men",
         "ROLE": "Batter",
         "NATION": "England",
+        "BASE_PRICE": 1.6,
         "STATS": {
             "Batting": {
                 "M": 6,
@@ -1121,6 +1188,7 @@ module.exports=[
         "TEAM": "Welsh Fire Men",
         "ROLE": "WK-Batter",
         "NATION": "England",
+        "BASE_PRICE": 1.9,
         "STATS": {
             "Batting": {
                 "M": 7,
@@ -1136,6 +1204,7 @@ module.exports=[
         "TEAM": "Welsh Fire Men",
         "ROLE": "Batter",
         "NATION": "England",
+        "BASE_PRICE": 1.8,
         "STATS": {
             "Batting": {
                 "M": 5,
@@ -1151,6 +1220,7 @@ module.exports=[
         "TEAM": "Welsh Fire Men",
         "ROLE": "All-Rounder",
         "NATION": "Australia",
+        "BASE_PRICE": 1.8,
         "STATS": {
             "Batting": {
                 "M": 6,
@@ -1172,6 +1242,7 @@ module.exports=[
         "TEAM": "Welsh Fire Men",
         "ROLE": "Batter",
         "NATION": "England",
+        "BASE_PRICE": 1.2,
         "STATS": {
             "Batting": {
                 "M": 4,
@@ -1187,6 +1258,7 @@ module.exports=[
         "TEAM": "Welsh Fire Men",
         "ROLE": "All-Rounder",
         "NATION": "England",
+        "BASE_PRICE": 1.5,
         "STATS": {
             "Batting": {
                 "M": 5,
@@ -1208,6 +1280,7 @@ module.exports=[
         "TEAM": "Welsh Fire Men",
         "ROLE": "All-Rounder",
         "NATION": "England",
+        "BASE_PRICE": 1.7,
         "STATS": {
             "Batting": {
                 "M": 6,
@@ -1229,6 +1302,7 @@ module.exports=[
         "TEAM": "Welsh Fire Men",
         "ROLE": "Bowler",
         "NATION": "New Zealand",
+        "BASE_PRICE": 2.1,
         "STATS": {
             "Bowling": {
                 "M": 7,
@@ -1244,6 +1318,7 @@ module.exports=[
         "TEAM": "Welsh Fire Men",
         "ROLE": "Bowler",
         "NATION": "England",
+        "BASE_PRICE": 1.8,
         "STATS": {
             "Bowling": {
                 "M": 6,
@@ -1259,6 +1334,7 @@ module.exports=[
         "TEAM": "Welsh Fire Men",
         "ROLE": "Bowler",
         "NATION": "Australia",
+        "BASE_PRICE": 1.5,
         "STATS": {
             "Bowling": {
                 "M": 5,
@@ -1274,6 +1350,7 @@ module.exports=[
         "TEAM": "Welsh Fire Men",
         "ROLE": "Bowler",
         "NATION": "England",
+        "BASE_PRICE": 1.2,
         "STATS": {
             "Bowling": {
                 "M": 3,
@@ -1289,6 +1366,7 @@ module.exports=[
         "TEAM": "Welsh Fire Men",
         "ROLE": "Bowler",
         "NATION": "England",
+        "BASE_PRICE": 1.3,
         "STATS": {
             "Bowling": {
                 "M": 4,
@@ -1304,6 +1382,7 @@ module.exports=[
         "TEAM": "Welsh Fire Men",
         "ROLE": "Bowler",
         "NATION": "England",
+        "BASE_PRICE": 0.9,
         "STATS": {
             "Bowling": {
                 "M": 2,
@@ -1319,6 +1398,7 @@ module.exports=[
         "TEAM": "Welsh Fire Men",
         "ROLE": "All-Rounder",
         "NATION": "England",
+        "BASE_PRICE": 1.0,
         "STATS": {
             "Batting": {
                 "M": 2,
@@ -1340,6 +1420,7 @@ module.exports=[
         "TEAM": "Southern Brave Men",
         "ROLE": "Batter",
         "NATION": "South Africa",
+        "BASE_PRICE": 2.3,
         "STATS": {
             "Batting": {
                 "M": 8,
@@ -1355,6 +1436,7 @@ module.exports=[
         "TEAM": "Southern Brave Men",
         "ROLE": "Batter",
         "NATION": "England",
+        "BASE_PRICE": 2.1,
         "STATS": {
             "Batting": {
                 "M": 7,
@@ -1370,6 +1452,7 @@ module.exports=[
         "TEAM": "Southern Brave Men",
         "ROLE": "Batter",
         "NATION": "England",
+        "BASE_PRICE": 1.6,
         "STATS": {
             "Batting": {
                 "M": 6,
@@ -1385,6 +1468,7 @@ module.exports=[
         "TEAM": "Southern Brave Men",
         "ROLE": "All-Rounder",
         "NATION": "England",
+        "BASE_PRICE": 1.5,
         "STATS": {
             "Batting": {
                 "M": 5,
@@ -1406,6 +1490,7 @@ module.exports=[
         "TEAM": "Southern Brave Men",
         "ROLE": "All-Rounder",
         "NATION": "Australia",
+        "BASE_PRICE": 1.7,
         "STATS": {
             "Batting": {
                 "M": 6,
@@ -1427,6 +1512,7 @@ module.exports=[
         "TEAM": "Southern Brave Men",
         "ROLE": "Batter",
         "NATION": "England",
+        "BASE_PRICE": 2.1,
         "STATS": {
             "Batting": {
                 "M": 8,
@@ -1442,6 +1528,7 @@ module.exports=[
         "TEAM": "Southern Brave Men",
         "ROLE": "All-Rounder",
         "NATION": "New Zealand",
+        "BASE_PRICE": 1.8,
         "STATS": {
             "Batting": {
                 "M": 6,
@@ -1463,6 +1550,7 @@ module.exports=[
         "TEAM": "Southern Brave Men",
         "ROLE": "All-Rounder",
         "NATION": "England",
+        "BASE_PRICE": 2.1,
         "STATS": {
             "Batting": {
                 "M": 7,
@@ -1484,6 +1572,7 @@ module.exports=[
         "TEAM": "Southern Brave Men",
         "ROLE": "All-Rounder",
         "NATION": "England",
+        "BASE_PRICE": 1.8,
         "STATS": {
             "Batting": {
                 "M": 6,
@@ -1505,6 +1594,7 @@ module.exports=[
         "TEAM": "Southern Brave Men",
         "ROLE": "Bowler",
         "NATION": "England",
+        "BASE_PRICE": 2.2,
         "STATS": {
             "Bowling": {
                 "M": 7,
@@ -1520,6 +1610,7 @@ module.exports=[
         "TEAM": "Southern Brave Men",
         "ROLE": "Bowler",
         "NATION": "England",
+        "BASE_PRICE": 2.3,
         "STATS": {
             "Bowling": {
                 "M": 8,
@@ -1535,6 +1626,7 @@ module.exports=[
         "TEAM": "Southern Brave Men",
         "ROLE": "Bowler",
         "NATION": "England",
+        "BASE_PRICE": 2.4,
         "STATS": {
             "Bowling": {
                 "M": 6,
@@ -1550,6 +1642,7 @@ module.exports=[
         "TEAM": "Southern Brave Men",
         "ROLE": "Bowler",
         "NATION": "England",
+        "BASE_PRICE": 2.1,
         "STATS": {
             "Bowling": {
                 "M": 7,
@@ -1565,6 +1658,7 @@ module.exports=[
         "TEAM": "Southern Brave Men",
         "ROLE": "Batter",
         "NATION": "England",
+        "BASE_PRICE": 1.0,
         "STATS": {
             "Batting": {
                 "M": 2,
@@ -1580,6 +1674,7 @@ module.exports=[
         "TEAM": "Southern Brave Men",
         "ROLE": "Bowler",
         "NATION": "England",
+        "BASE_PRICE": 1.5,
         "STATS": {
             "Bowling": {
                 "M": 5,

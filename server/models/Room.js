@@ -1,4 +1,4 @@
-const mongoose = require('mongoose');
+import mongoose from "mongoose";
 
 // ✅ Schema for individual player stats inside a team
 const playerStatsSchema = new mongoose.Schema({
@@ -34,7 +34,7 @@ const playerSchema = new mongoose.Schema({
 });
 
 // ✅ Main room schema
-const roomSchema = new mongoose.Schema({
+const RoomSchema = new mongoose.Schema({
   roomCode: String,
   creator: String,
   maxPlayers: Number,
@@ -78,4 +78,4 @@ const roomSchema = new mongoose.Schema({
   createdAt: { type: Date, default: Date.now, expires: 86400 }
 });
 
-module.exports = mongoose.model('Room', roomSchema);
+export default mongoose.model("Room", RoomSchema);
